@@ -38,7 +38,7 @@ public class Metodoak {
     /** Esleitutako datuekin ArrayList-a sortzen du. */
     public static ArrayList<Artikulua> hasieratu() {
         ArrayList<Artikulua> artikuluak = new ArrayList<>();
-        artikuluak.add(new Artikulua(1234, "LATA TOMATE CICA", 234, 0.90, LocalDate.of(1993, 1, 12), false));
+        artikuluak.add(new Artikulua(1234, "LATA TOMATE CICAS", 234, 0.90, LocalDate.of(1993, 1, 12), false));
         artikuluak.add(new Artikulua(1456, "LATA TOMATE SANCOR", 100, 0.86, LocalDate.of(1993, 1, 14), false));
         artikuluak.add(new Artikulua(1987, "lata palmitos olaff", 200, 3.50, LocalDate.of(1993, 2, 15), true));
         artikuluak.add(new Artikulua(1899, "lata choclo pomar", 120, 1.67, LocalDate.of(1993, 2, 17), false));
